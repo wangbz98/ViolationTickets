@@ -3,6 +3,7 @@ import pandas as pd
 import urllib.request
 import matplotlib.pyplot as plt
 import numpy as np
+import math
 
 st.title('Am I getting a :red[_ticket_] for a traffic stop in WA? 😥')
 
