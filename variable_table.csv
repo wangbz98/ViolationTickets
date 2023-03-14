@@ -1,0 +1,9 @@
+Column,Description,Type,Measurement,Possible Value
+stop_outcome,Get written warning or not,Binary,"1 = Written Warning, 0 = Verbal Warning",2
+day_of_week,Day in week,Categorical,"0 = MON, 1 = TUE, …, 6 =SUN",7
+rush_hour,Whether in peak hour ,Binary,"1 = In peak hour, 0 = Not in peak hour",2
+driver_age,Driver’s age,Continuous,-,Positive Value
+driver_gender,Driver’s gender,Categorical,M/F ,2
+driver_race,Driver’s race,Categorical,"White, Black, Asian, Hispanic, Other  ",5
+sig_violation,Main violation that leads to traffic stop,Categorical,"Movement, Driver, Vehicle, Others",4
+count_of_violation,Number of violation,Continuous,-,Positive Value

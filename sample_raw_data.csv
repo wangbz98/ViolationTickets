@@ -1,0 +1,101 @@
+id,stop_date,stop_time,driver_gender,driver_age,driver_race,stop_outcome,violation,officer_id,officer_gender,officer_race,location_raw
+WA-2013-0302084,2013-04-01,00:00,M,18.0,White,Verbal Warning,"Paperwork,Speeding",1092,M,White,Skagit
+WA-2013-0302085,2013-04-01,00:00,M,48.0,Asian,Verbal Warning,Speeding,526,M,Other,Benton
+WA-2013-0302090,2013-04-01,00:00,M,17.0,White,Verbal Warning,"Paperwork,Speeding",113,M,White,Snohomish
+WA-2013-0302094,2013-04-01,00:00,M,51.0,White,Verbal Warning,"Equipment,Speeding",120,M,White,Kitsap
+WA-2013-0302097,2013-04-01,00:00,F,61.0,White,Verbal Warning,"Paperwork,Registration/plates",514,F,White,Thurston
+WA-2013-0302101,2013-04-01,00:00,M,20.0,White,Verbal Warning,Cell phone,585,M,White,Thurston
+WA-2013-0302102,2013-04-01,00:00,M,23.0,White,Verbal Warning,Safe movement,149,M,White,Island
+WA-2013-0302104,2013-04-01,00:00,M,32.0,White,Verbal Warning,"Equipment,Paperwork,Registration/plates",514,F,White,Thurston
+WA-2013-0302105,2013-04-01,00:00,M,52.0,Hispanic,Verbal Warning,Safe movement,444,M,White,Yakima
+WA-2013-0302107,2013-04-01,00:00,F,68.0,White,Verbal Warning,Safe movement,1092,M,White,Skagit
+WA-2013-0302108,2013-04-01,00:00,F,50.0,White,Verbal Warning,Lights,1088,M,White,Skagit
+WA-2013-0302110,2013-04-01,00:00,M,33.0,White,Verbal Warning,Safe movement,292,M,White,Snohomish
+WA-2013-0302111,2013-04-01,00:00,M,31.0,White,Verbal Warning,Speeding,946,M,White,Kittitas
+WA-2013-0302113,2013-04-01,00:00,M,55.0,White,Verbal Warning,Speeding,574,M,White,Clark
+WA-2013-0302115,2013-04-01,00:00,F,41.0,White,Verbal Warning,Speeding,161,M,White,Snohomish
+WA-2013-0302117,2013-04-01,00:00,M,23.0,White,Verbal Warning,Safe movement,841,M,White,Grays Harbor
+WA-2013-0302118,2013-04-01,00:00,M,20.0,White,Verbal Warning,Speeding,514,F,White,Thurston
+WA-2013-0302122,2013-04-01,00:00,M,23.0,Black,Verbal Warning,Safe movement,178,M,Black,Pierce
+WA-2013-0302123,2013-04-01,00:00,M,18.0,White,Verbal Warning,"Lights,Registration/plates",66,M,White,Benton
+WA-2013-0302124,2013-04-01,00:00,F,40.0,White,Verbal Warning,Speeding,214,M,White,Adams
+WA-2013-0302125,2013-04-01,00:00,M,61.0,White,Verbal Warning,"Equipment,Other,Safe movement",704,M,Asian,King
+WA-2013-0302127,2013-04-01,00:00,M,19.0,Black,Verbal Warning,Speeding,271,M,White,Kitsap
+WA-2013-0302129,2013-04-01,00:00,M,19.0,Hispanic,Verbal Warning,Speeding,444,M,White,Yakima
+WA-2013-0302133,2013-04-01,00:00,M,21.0,White,Verbal Warning,"Safe movement,Speeding",113,M,White,Snohomish
+WA-2013-0302161,2013-04-01,01:00,F,62.0,White,Verbal Warning,Other,178,M,Black,Pierce
+WA-2013-0302163,2013-04-01,01:00,M,68.0,Black,Verbal Warning,Safe movement,1017,M,White,Pierce
+WA-2013-0302164,2013-04-01,01:00,M,25.0,White,Verbal Warning,"Registration/plates,Stop sign/light",936,M,White,Wahkiakum
+WA-2013-0302167,2013-04-01,01:00,M,52.0,Black,Verbal Warning,Safe movement,1046,M,White,Pierce
+WA-2013-0302169,2013-04-01,01:00,F,52.0,White,Verbal Warning,Other,608,M,Other,Cowlitz
+WA-2013-0302170,2013-04-01,01:00,F,40.0,White,Verbal Warning,Safe movement,196,M,White,Kitsap
+WA-2013-0302173,2013-04-01,01:00,M,50.0,White,Verbal Warning,Stop sign/light,1028,M,White,Thurston
+WA-2013-0302174,2013-04-01,01:00,M,23.0,Asian,Verbal Warning,Safe movement,1017,M,White,Pierce
+WA-2013-0302176,2013-04-01,01:00,F,22.0,White,Verbal Warning,Safe movement,57,M,White,Spokane
+WA-2013-0302177,2013-04-01,01:00,M,16.0,Hispanic,Verbal Warning,Speeding,461,M,Hispanic,King
+WA-2013-0302178,2013-04-01,01:00,M,25.0,White,Verbal Warning,Safe movement,545,M,White,Clark
+WA-2013-0302179,2013-04-01,01:00,M,76.0,Asian,Verbal Warning,Safe movement,146,M,White,Spokane
+WA-2013-0302180,2013-04-01,01:00,M,53.0,White,Verbal Warning,Safe movement,946,M,White,Kittitas
+WA-2013-0302183,2013-04-01,01:00,M,25.0,White,Verbal Warning,"Cell phone,Safe movement",1028,M,White,Thurston
+WA-2013-0302184,2013-04-01,01:00,M,30.0,Asian,Verbal Warning,Speeding,545,M,White,Clark
+WA-2013-0302185,2013-04-01,01:00,M,22.0,White,Verbal Warning,Safe movement,574,M,White,Clark
+WA-2013-0302186,2013-04-01,01:00,F,46.0,White,Verbal Warning,Speeding,984,M,Hispanic,Kittitas
+WA-2013-0302190,2013-04-01,01:00,M,49.0,White,Verbal Warning,"Paperwork,Safe movement,Stop sign/light",841,M,White,Grays Harbor
+WA-2013-0302208,2013-04-01,02:00,M,23.0,White,Verbal Warning,"Equipment,Paperwork",1046,M,White,Pierce
+WA-2013-0302209,2013-04-01,02:00,M,50.0,Asian,Verbal Warning,"Safe movement,Speeding",1039,M,White,King
+WA-2013-0302211,2013-04-01,02:00,M,24.0,White,Verbal Warning,Safe movement,404,F,White,Pierce
+WA-2013-0302212,2013-04-01,02:00,M,30.0,White,Verbal Warning,Speeding,594,M,Black,King
+WA-2013-0302214,2013-04-01,02:00,F,66.0,Asian,Verbal Warning,Speeding,404,F,White,Pierce
+WA-2013-0302217,2013-04-01,02:00,F,31.0,Hispanic,Verbal Warning,Safe movement,1014,M,White,Benton
+WA-2013-0302218,2013-04-01,02:00,M,40.0,White,Verbal Warning,"Paperwork,Speeding",1017,M,White,Pierce
+WA-2013-0302219,2013-04-01,02:00,M,32.0,White,Verbal Warning,"Safe movement,Speeding",404,F,White,Pierce
+WA-2013-0302221,2013-04-01,02:00,F,40.0,White,Verbal Warning,Speeding,292,M,White,Snohomish
+WA-2013-0302223,2013-04-01,02:00,M,18.0,White,Verbal Warning,"Equipment,Safe movement,Speeding",292,M,White,Snohomish
+WA-2013-0302225,2013-04-01,02:00,F,64.0,White,Verbal Warning,Speeding,146,M,White,Spokane
+WA-2013-0302227,2013-04-01,02:00,M,51.0,Asian,Verbal Warning,Safe movement,404,F,White,Pierce
+WA-2013-0302230,2013-04-01,02:00,F,53.0,Asian,Verbal Warning,Safe movement,594,M,Black,King
+WA-2013-0302232,2013-04-01,02:00,F,51.0,White,Verbal Warning,Speeding,1039,M,White,King
+WA-2013-0302245,2013-04-01,03:00,F,32.0,White,Verbal Warning,Paperwork,594,M,Black,King
+WA-2013-0302247,2013-04-01,03:00,M,20.0,White,Verbal Warning,Speeding,1089,F,Black,Pierce
+WA-2013-0302250,2013-04-01,03:00,M,45.0,White,Verbal Warning,Speeding,292,M,White,Snohomish
+WA-2013-0302253,2013-04-01,03:00,M,38.0,White,Verbal Warning,Speeding,1089,F,Black,Pierce
+WA-2013-0302267,2013-04-01,04:00,M,30.0,White,Verbal Warning,Speeding,1039,M,White,King
+WA-2013-0302271,2013-04-01,04:00,M,45.0,Black,Verbal Warning,Other,1089,F,Black,Pierce
+WA-2013-0302272,2013-04-01,04:00,F,21.0,White,Verbal Warning,Speeding,1092,M,White,Skagit
+WA-2013-0302273,2013-04-01,04:00,F,49.0,Asian,Verbal Warning,"Safe movement,Speeding",320,M,White,Lewis
+WA-2013-0302280,2013-04-01,05:00,M,31.0,White,Written Warning,"Registration/plates,Speeding",671,F,White,Kitsap
+WA-2013-0302282,2013-04-01,05:00,M,33.0,Hispanic,Verbal Warning,"Paperwork,Safe movement",757,M,Black,King
+WA-2013-0302284,2013-04-01,05:00,M,51.0,White,Verbal Warning,Speeding,29,M,White,Mason
+WA-2013-0302285,2013-04-01,05:00,M,54.0,White,Verbal Warning,"Paperwork,Speeding",374,M,White,Yakima
+WA-2013-0302286,2013-04-01,05:00,F,19.0,White,Verbal Warning,Speeding,830,M,White,Spokane
+WA-2013-0302289,2013-04-01,05:00,M,55.0,White,Verbal Warning,Safe movement,671,F,White,Kitsap
+WA-2013-0302290,2013-04-01,05:00,M,28.0,White,Verbal Warning,Safe movement,1144,M,White,Skagit
+WA-2013-0302291,2013-04-01,05:00,M,31.0,White,Verbal Warning,"Paperwork,Safe movement",757,M,Black,King
+WA-2013-0302294,2013-04-01,05:00,F,40.0,White,Verbal Warning,Speeding,830,M,White,Spokane
+WA-2013-0302297,2013-04-01,05:00,M,32.0,Black,Verbal Warning,"Other,Paperwork,Registration/plates,Safe movement",757,M,Black,King
+WA-2013-0302303,2013-04-01,05:00,M,52.0,White,Verbal Warning,Speeding,416,M,White,Clark
+WA-2013-0302304,2013-04-01,05:00,M,53.0,White,Verbal Warning,Speeding,671,F,White,Kitsap
+WA-2013-0302308,2013-04-01,05:00,M,35.0,White,Verbal Warning,Registration/plates,446,M,Other,King
+WA-2013-0302320,2013-04-01,06:00,M,49.0,White,Verbal Warning,Speeding,131,M,White,Pierce
+WA-2013-0302323,2013-04-01,06:00,M,62.0,White,Verbal Warning,Safe movement,207,M,White,Jefferson
+WA-2013-0302325,2013-04-01,06:00,M,30.0,Hispanic,Verbal Warning,Safe movement,646,M,White,King
+WA-2013-0302326,2013-04-01,06:00,M,47.0,White,Verbal Warning,Safe movement,603,M,White,Spokane
+WA-2013-0302332,2013-04-01,06:00,M,36.0,White,Verbal Warning,Speeding,482,M,White,Pacific
+WA-2013-0302333,2013-04-01,06:00,M,33.0,Black,Verbal Warning,Registration/plates,599,M,White,Spokane
+WA-2013-0302334,2013-04-01,06:00,F,27.0,White,Verbal Warning,"Paperwork,Safe movement",757,M,Black,King
+WA-2013-0302335,2013-04-01,06:00,M,27.0,White,Verbal Warning,"Paperwork,Safe movement",757,M,Black,King
+WA-2013-0302340,2013-04-01,06:00,M,43.0,White,Verbal Warning,Other,1055,M,White,Yakima
+WA-2013-0302345,2013-04-01,06:00,M,24.0,White,Verbal Warning,Safe movement,86,M,White,Snohomish
+WA-2013-0302346,2013-04-01,06:00,M,28.0,White,Verbal Warning,"Paperwork,Safe movement",267,M,White,Spokane
+WA-2013-0302351,2013-04-01,06:00,M,47.0,White,Verbal Warning,Lights,1026,M,White,Grays Harbor
+WA-2013-0302354,2013-04-01,06:00,M,30.0,White,Verbal Warning,Speeding,830,M,White,Spokane
+WA-2013-0302355,2013-04-01,06:00,M,55.0,White,Verbal Warning,Safe movement,671,F,White,Kitsap
+WA-2013-0302358,2013-04-01,06:00,F,27.0,White,Verbal Warning,Safe movement,1031,F,White,Yakima
+WA-2013-0302361,2013-04-01,06:00,M,54.0,White,Verbal Warning,Safe movement,646,M,White,King
+WA-2013-0302364,2013-04-01,06:00,M,51.0,White,Verbal Warning,Speeding,26,M,White,Pierce
+WA-2013-0302368,2013-04-01,06:00,M,42.0,White,Verbal Warning,"License,Paperwork,Safe movement",416,M,White,Clark
+WA-2013-0302371,2013-04-01,06:00,M,36.0,White,Verbal Warning,"Registration/plates,Speeding",197,M,White,Whitman
+WA-2013-0302372,2013-04-01,06:00,M,49.0,White,Verbal Warning,"Equipment,Speeding",303,F,White,King
+WA-2013-0302374,2013-04-01,06:00,M,23.0,White,Verbal Warning,"Paperwork,Safe movement,Speeding",748,M,White,Grant
+WA-2013-0302375,2013-04-01,06:00,M,64.0,White,Verbal Warning,Lights,420,F,White,King
+WA-2013-0302381,2013-04-01,06:00,M,75.0,White,Verbal Warning,Registration/plates,1055,M,White,Benton
