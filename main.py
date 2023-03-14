@@ -178,3 +178,92 @@ p = pd.read_csv('p-value_final.csv', encoding= 'unicode_escape')
 p = p.drop('Group', axis=1)
 p.index = list(['White M','Black M','Asian M','Hispanic M','Other M','White F','Black F','Asian F','Hispanic F','Other F'])
 st.dataframe(p.style.highlight_between(left=0, right=0.05))
+
+
+# Violation prediction
+st.header(':blue[_PUNISHMENT TYPE PREDICTION_]')
+
+# Selection boxes
+st.subheader('Input information')
+
+offGender = st.radio("Officer gender:", ['Male', 'Female'])
+race = st.selectbox("Officer race:", ['White', 'Black', 'Asian', 'Hispanic', 'Other'])
+dow = st.selectbox("Pullover day of the week:", ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'])
+driGender = st.radio("Driver gender:", ['Male', 'Female'])
+violation = st.selectbox("Violation type:", ['Movement [Speeding, Safe movement, Moving violation, Stop sign/light]',
+                                             'Driver [Cell phone, Seat belt,DUI]',
+                                             'Vehicle [Equipment, Truck, Lights]',
+                                             'Others [Paperwork,License,Registration/plates, Other, Other (non-mapped)]'])
+isRushHour = st.radio("Pullover time", ['Rush hour [7-9am, 4-6pm]', 'Normal'])
+age = st.number_input("Driver's age", 16)
+countOfViolations = st.number_input("Count of violations", 1)
+
+# Convert to variable list
+GroupDict = {('White', 'Male'): 0, ('Black', 'Male'): 1, ('Asian', 'Male'): 2, ('Hispanic', 'Male'): 3, ('Other', 'Male'): 4,
+             ('White', 'Female'): 5, ('Black', 'Female'): 6, ('Asian', 'Female'): 7, ('Hispanic', 'Female'): 8, ('Other', 'Female'): 9}
+dowDict = {'Monday': [0, 0, 0, 0, 0, 0], 'Tuesday': [1, 0, 0, 0, 0, 0], 'Wednesday': [0, 1, 0, 0, 0, 0],
+           'Thursday': [0, 0, 1, 0, 0, 0], 'Friday': [0, 0, 0, 1, 0, 0], 'Saturday': [0, 0, 0, 0, 1, 0], 'Sunday': [0, 0, 0, 0, 0, 1]}
+genderDict = {'Male': [1], 'Female': [0]}
+violationDict = {'Movement [Speeding, Safe movement, Moving violation, Stop sign/light]': [1, 0, 0],
+                'Driver [Cell phone, Seat belt,DUI]': [0, 0, 0],
+                'Vehicle [Equipment, Truck, Lights]': [0, 0, 1],
+                'Others [Paperwork,License,Registration/plates, Other, Other (non-mapped)]': [0, 1, 0]}
+rushDict = {'Rush hour [7-9am, 4-6pm]': [1], 'Normal': [0]}
+
+IVlist = [1] + dowDict[dow] + genderDict[driGender] + violationDict[violation] + rushDict[isRushHour] + [age] + [countOfViolations]
+
+print(IVlist)
+
+coe = pd.read_csv('coefficient_significant.csv')
+row_group = GroupDict[(race, offGender)]
+coeList = list(coe.loc[row_group])
+coeList.pop(0)
+print(coeList)
+
+ln = sum(np.multiply(IVlist, coeList))
+print(ln)
+
+p = math.exp(ln) / (1 + math.exp(ln))
+print(p)
+
+result = "Written Warning" if p > 0.5 else "Verbal Warning"
+
+st.subheader('Prediction results')
+
+st.markdown(
+"""
+Probability of getting written warning: :blue[{p:.2f}%]
+""".format(p=p * 100)
+)
+
+st.markdown(
+"""
+You will probably receive: :red[{r}]
+""".format(r=result)
+)
+
+# Conclusion
+st.header(':blue[_CONCLUSION_]')
+
+st.markdown(
+"""
+Different officials tend to make different decisions. According to Figure 1 and observing the curves, the light blue curves representing violations decrease at "Black M" and "Asian F" respectively, and the yellow curves represent that Gender is low at the beginning, but starts to rise at "Asian M" and then at "White F" , and the blue curve representing intercept and the light blue curve representing violation start to rise all the way at "Hispanic F". Thus, we can draw the following conclusions:
+"""
+)
+
+st.markdown(
+"""
+1)  Asian female officials are the fairest female officer group compared to the others, as all coefficient lines drop significantly at "Asian F", meaning that all attributes are less correlated there.\n
+2)  Drivers are less relevant to their movements with Black male officers than with White male officers.\n
+3)	Asian, Hispanic and other male officers more likely to file tickets based on driver's gender.\n
+4)	Due to the lack of data, the coefficient values are unreasonable for Hispanic female officers and other female officer groups.
+"""
+
+)
+
+st.markdown(
+"""
+Combining with Figure 2, we can see that the P values of other groups except white police officers are very high. From this, it can be concluded that the data volume of other groups is small, and the results have large errors and have little reference significance. However, we can still draw some useful conclusions from Figure 2.
+"""
+)
+
