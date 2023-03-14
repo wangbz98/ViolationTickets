@@ -52,13 +52,27 @@ st.markdown(
     * Using driver’s demographics – race, gender, and age
     * Date – days of week
     * Time – Rush or Normal
-    * Violation – Significant only and Count
+    * Violation – Significant only and Count 
+* The ‘Significant violation’ variable contained 15 categories was grouped as follows:
+    * Movement = [Speeding, Safe movement, Moving violation, Stop sign/light]
+    * Driver = [Cell phone, Seat belt,DUI]
+    * Vehicle = [Equipment, Truck, Lights]
+    * Others = [Paperwork,License,Registration/plates, Other, Other (non-mapped)] 
 * Group by officer’s demographics
     * Race x Gender
     * 10 groups
 * Coefficients from Binary Logit Model 
 """
 )
+#Show variable detail table
+### Use to be working, but later get "HTTP Error 403: Forbidden" error
+#url='https://drive.google.com/file/d/1W2feR6A0bIcn0P2DSmKFLOM7-f9V3v1k/view?usp=share_link'
+#url='https://drive.google.com/uc?id=' + url.split('/')[-2]
+#variable = pd.read_csv(url, encoding= 'unicode_escape')
+
+variable = pd.read_csv('variable_table.csv', encoding= 'unicode_escape')
+st.caption('Table 2: Independent and dependent variable')
+st.dataframe(variable)
 
 #Show data management plan
 st.subheader('Data Management Plan')
@@ -83,27 +97,6 @@ Where
 \tX1,X2,...,Xk = Independent variables
 \tb0,b1,...,bk = Coefficient of model
 """)
-
-#Show variable detail table
-### Use to be working, but later get "HTTP Error 403: Forbidden" error
-#url='https://drive.google.com/file/d/1W2feR6A0bIcn0P2DSmKFLOM7-f9V3v1k/view?usp=share_link'
-#url='https://drive.google.com/uc?id=' + url.split('/')[-2]
-#variable = pd.read_csv(url, encoding= 'unicode_escape')
-
-st.markdown(
-"""
-* Data in each column was recoded into variables for use in the binary logistic regression model
-* The ‘Significant violation’ variable contained 15 categories was grouped as follows:
-    * Movement = [Speeding, Safe movement, Moving violation, Stop sign/light]
-    * Driver = [Cell phone, Seat belt,DUI]
-    * Vehicle = [Equipment, Truck, Lights]
-    * Others = [Paperwork,License,Registration/plates, Other, Other (non-mapped)]
-"""
-)
-
-variable = pd.read_csv('variable_table.csv', encoding= 'unicode_escape')
-st.caption('Table 2: Independent and dependent variable')
-st.dataframe(variable)
 
 #Show Logistic Regression using logit function
 st.subheader('Model Fitting')
